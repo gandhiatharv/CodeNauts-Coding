@@ -65,19 +65,19 @@ function createFAQs() {
     questionButton.style.transition = 'background-color 0.3s ease';
 
     //first and last-lightest
-    questionButton.style.backgroundColor = "#4c9c5c"; // Nice shade of green
+    questionButton.style.backgroundColor = "#0f7ac1"; // Nice shade of green
 
     //second-medium
     questionButton.addEventListener('mouseover', () => {
-      questionButton.style.backgroundColor = '#6da671';
+      questionButton.style.backgroundColor = '#87ceeb';
     });
     //third-darkest
     questionButton.addEventListener('mousedown', () => {
-      questionButton.style.backgroundColor = '#108B49';
+      questionButton.style.backgroundColor = '#0047AB';
     });
 //last-lightest
     questionButton.addEventListener('mouseout', () => {
-      questionButton.style.backgroundColor = '#4c9c5c';
+      questionButton.style.backgroundColor = '#0f7ac1';
     });
     
     container.appendChild(questionButton);
