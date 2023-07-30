@@ -1,0 +1,3 @@
+React, Django, node js otjher cool libraries using ton take to app development, webdevelopment, and beyond web devleopmnt respectively
+
+SQL for databases

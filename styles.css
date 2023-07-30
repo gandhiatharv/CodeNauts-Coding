@@ -1,0 +1,115 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    background-color:#FF9AFF;
+    
+}
+a{
+    text-decoration :none;
+    font-family: fantasy;
+}
+
+.unav{
+    color:red;
+}
+.av{
+    color:black
+}
+/*position is messy so commented*/
+/*.bodyimg{
+    position: absolute;
+}*/
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 57px;
+    font-family: cursive;
+    position: absolute;
+    top:10%;
+    left:50%;
+text-align: center;    transform: translate(-50%,-50%);
+    font-weight: 900;
+}
+.bodyimg h3{
+    color:#f7f2f2;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1250px;
+    position: absolute;
+    top:55%;
+    left:40.5%;
+    transform: translate(-40%, -40%);
+}
+.bodyimg h6{
+    color:#f7f2f2;
+    font-family: fantasy;
+    font-size: 26px;
+    width: 1250px;
+    position: absolute;
+    top:30%;
+    left:40.5%;
+    text-align: center;
+    transform: translate(-40%, -40%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    /*removed margit to make it look like the refference and make you think that i have just called whjr and requseted the project ;-))*/
+    /*margin: 40px;*/
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 310px;
+    height:190px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+.thisone{
+    background-color: #ACF2B4;
+}
+.clickbutton{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+}
+
+/* styles.css */
+.buttonContainer {
+    text-align: center; /* Aligns the button horizontally to the center */
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

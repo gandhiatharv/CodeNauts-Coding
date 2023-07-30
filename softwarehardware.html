@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tech Titans: From Apprentice to Maestro</title>
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="pigeon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="pigeon.png"
+  />
+    <script src="sweetalert.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="sweetalert.css">
+  
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+      <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #DEB117;
+    }
+    
+    #menu {
+      position: fixed;
+      top: 0;
+      right: -250px; /* Initially hidden off-screen */
+      width: 250px;
+      height: 100%;
+      background-color: #f2d7ac	;
+      padding: 25px;
+      color: #fff;
+      transition: right 0.3s ease;
+    }
+    
+    #menu.open {
+      right: 0; /* Display menu when it's open */
+    }
+    
+    #menu ul {
+      list-style: none;
+      padding: 0px;
+    }
+    
+    #menu li {
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    #menu li:hover {
+      background-color: #555;
+    }
+    
+    #menu-icon {
+      position: fixed;
+      top: 20px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      color: 0;
+    }
+  </style>
+
+</head>
+<body>
+
+
+
+<div class ="bodyimg">
+    <img src="a6.png" height="530px" width="100%">
+    <p>
+        Tech Titans:<br> From Apprentice to Maestro
+    </p>
+    <h6><br><br>
+        Unleash your inner tech titan with this Hardware/Software Development course! From embedded systems to Internet of Things (IoT) devices, this comprehensive program explores the fusion of hardware and software engineering. Learn to program microcontrollers, design circuits, and build interactive projects that bridge the physical and digital realms, including computer applications and even robots! Embrace the fusion of technology with Tech Titans and shape the future of innovation!
+
+
+
+
+
+
+
+
+
+    </h6>
+</div>
+<div id="menu">
+    <ul>
+        <br><br>
+      <a href="blockcoding.html" class="unav">Block Coding with Code.org & Thunkable</a><br><br>
+      <a href="webdevelopment.html" class="av">Web Development Front-End with HTML, CSS, & JS</a><br><br>
+      <a href="backend.html" class="unav">Cloud/Server Side/Database/Enterprise Level Application Development Back-End with Python, SQL, C++, & Java</a><br><br>
+      <a href="appdevelopment.html" class="unav">App Development with Java, JS, & React Native</a><br><br>
+      <a href="ai.html" class="unav">AI & Machine Learning with Python & C++</a><br><br>
+      <a href="gamedevelopment.html" class="unav">2D & 3D Game Development with JS, Python, & C++</a><br><br>
+    <a href="softwarehardware.html" class="unav thisone">Software, Computer Application, & Hardware/Robotics Development with C++, Python, & JS</a>
+    </ul>
+  </div>
+  
+  <div id="menu-icon">&#9776;</div>
+
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const menu = document.getElementById('menu');
+
+    menuIcon.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+<div class ="grid">
+    
+
+</div>
+<script src="sweetalert.min.js"></script>
+<script src="sketch6.js"></script>
+</body>
+</html>
